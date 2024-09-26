@@ -25,14 +25,14 @@ tic-tac-toe/
 ├── src/
 │   ├── main/
 │   │   └── scala/
-│   │       ├── Game.scala  # Game logic
-│   │       ├── Player.scala# Player class
-│   │       └── Board.scala # Board logic
+│   │       ├── Game.scala      # Game logic
+│   │       ├── Player.scala    # Player class
+│   │       └── Board.scala     # Board logic
 │   └── test/
 │       └── scala/
-│           ├── GameTest.scala # Unit tests for the game
-│           └── BoardTest.scala# Unit tests for the board
-└── README.md               # Project documentation (this file)
+│           ├── GameTest.scala      # Unit tests for the game
+│           └── BoardTest.scala     # Unit tests for the board
+└── README.md                       # Project documentation (this file)
 ```
 
 ## How to Run
