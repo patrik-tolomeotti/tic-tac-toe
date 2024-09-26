@@ -1,0 +1,33 @@
+# .gitignore for Scala/SBT projects using VS Code with Metals
+
+# SBT-specific files
+/target/
+/project/target/
+/project/project/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VS Code project files
+.vscode/
+.history/
+
+# Metals-specific files
+/.bloop/
+/.metals/
+/.worksheet/
+
+# Scala Cache and Class Files
+*.class
+.cache/
+.cache-main/
+
+# Assembly Fat JARs
+*.jar
+
+# Test reports
+/test-reports/
+
+# MacOS system files
+.DS_Store
