@@ -25,13 +25,15 @@ tic-tac-toe/
 ├── src/
 │   ├── main/
 │   │   └── scala/
-│   │       ├── Game.scala      # Game logic
-│   │       ├── Player.scala    # Player class
-│   │       └── Board.scala     # Board logic
+│   │       ├── Board.scala     # Board logic
+│   │       ├── Game.scala      # Game class
+│   │       └── Main.scala     
+│   │       └── Player.scala    # Player logic
 │   └── test/
 │       └── scala/
 │           ├── GameTest.scala      # Unit tests for the game
 │           └── BoardTest.scala     # Unit tests for the board
+│           └── PlayerTest.scala    # Unit tests for the player
 └── README.md                       # Project documentation (this file)
 ```
 
@@ -44,7 +46,7 @@ tic-tac-toe/
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/your-repo/tic-tac-toe.git
+git clone https://github.com/patrik-tolomeotti/tic-tac-toe.git
 cd tic-tac-toe
 ```
 
